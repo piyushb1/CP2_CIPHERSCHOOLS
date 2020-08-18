@@ -4,13 +4,7 @@ using namespace std;
 
 void pattern1(int n)
 {
-    /*
-        *
-        * *
-        * * *
-        * * * *
-        * * * * *
-    */
+   
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
@@ -21,13 +15,7 @@ void pattern1(int n)
 
 void pattern2(int n)
 {
-    /*
-                *
-              * *
-            * * *
-          * * * *
-        * * * * *
-    */
+   
     for (int i = 0; i < n; i++)
     {
         // spaces
@@ -41,13 +29,7 @@ void pattern2(int n)
 
 void pattern3(int n)
 {
-    /*
-            *
-           * *
-          * * *
-         * * * *
-        * * * * *
-    */
+   
     for (int i = 0; i < n; i++)
     {
         for (int s = 0; s < (n - i - 1); s++)
@@ -60,13 +42,7 @@ void pattern3(int n)
 
 void pattern4(int n)
 {
-    /*
-        1
-        1 2
-        1 2 3
-        1 2 3 4
-        1 2 3 4 5
-    */
+   
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
@@ -77,13 +53,7 @@ void pattern4(int n)
 
 void pattern5(int n)
 {
-    /*
-        1
-        2 3
-        4 5 6
-        7 8 9 10
-        11 12 13 14 15
-    */
+   
     int track = 1;
     for (int i = 0; i < n; i++)
     {
